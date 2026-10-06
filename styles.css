@@ -3,25 +3,77 @@ body {
     background-color:#f3f1ee;
     color: #6a6a6e;
 }
+#wrapper {
+    max-width:800px;
+    margin: 0 auto 0 auto;
+}
 header {
-    background-image: url("images/seattle-headerimg.jpg");
-    width: 600px;
+    background-image: url("images/space_needle.webp");
+    background-position: left;
+    background-size: 800px;
+    background-color: #6a6a6e;
     padding: 10px;
-    margin-bottom: 20px;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 10px;
+    background-color: #191b31;
+}
+nav a {
+    color: #f3f1ee;
+    text-decoration: none;
+}
+.highlight {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: 1px;
+    color: #dedcda;
 }
 h1,
 h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    letter-spacing: 1px;
     color: #191b31;
+    font-size: 38px;
+}
+h1 {
+    text-shadow: 2px 2px #6a6a6e;
 }
 h2 {
     font-size: 24px;
-
+}
+.activities {
+    display: flex;
+    justify-content: center;
+}
+.activities div {
+    width: 55%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+section ul li {
+    margin-top: 15px;
+    list-style: circle;
+    
+}
+figcaption {
+    color:#6a6a6e;
+    font-family: 'Times New Roman', Times, serif;
 }
 footer {
-    color: white;
     background-color:#191b31;
+    text-align:center;
+    font-size: 12px;
+    font-style: italic;
+    color: #f3f1ee;
     padding: 20px;
-    text-align: center;
+}
+#footer-wrapper {
+    max-width: 800px;
+    margin: 0 auto 0 auto;
 }
