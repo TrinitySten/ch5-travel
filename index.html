@@ -7,10 +7,9 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="wrapper">
     <header>
         <h1 style="color:#f3f1ee">Explore Seattle</h1>
-        <p class="highlight">Fun. Scenery. Adventure.</p>
+        <p class="highlight">Discover the wonders of the Pacific Northwest~</p>
     </header>
     <nav>
         <a href="#about">About</a>
@@ -18,12 +17,14 @@
         <a href="#gallery">Gallery</a>
     </nav>
     <main>
+        <div id="wrapper">
+            <!-- HERO SECTION -->
         <img
             src="images/space-needle-2.jpg"
             alt="A medium shot of Seattle's skyline on a clear afternoon.."
-            width="800"
+            width="1000"
             height="400">
-        <section class="activities">
+        <section class="activities" id="about">
             <div>
                 <h2>Things To Do:</h2>
                 <ul>
@@ -46,8 +47,29 @@
                     </figure>
                 </div>
             </section>
-        </main>
-    </div>
+            <section id="gallery" class="gallery layout">
+                <h2>Gallery</h2>
+                    <div class="gallery-layout">
+                        <img 
+                            src="images/gumwall.jpg"
+                            alt="A picture of Seattle's notorious and colorful gum wall,
+                            adorned with hard-stuck pieces of gum of all shapes, sizes, and colors."
+                            width="250">
+                        <img 
+                            src="images/pikeplace.jpg"
+                            alt="A crowd washes over Pike Place Market in the afternoon."
+                            width="250">
+                        <img 
+                            src="images/seattle-aquarium.jpg"
+                            alt="A group of people stand looking out a oval display at the Seattle Aquarium."
+                            width="250">
+                    </div>
+                    <blockquote>
+                        <p class="highlight" style="color:#33212d">&quot;The Gum Wall is all that was, is, and ever will be.&quot;</p>
+                        <p>&mdash; said Trinity Sten, just now.</p>
+                    </blockquote>
+                </section>
+                    </main>
     <footer>
         <div id="footer-wrapper">
         <div>
